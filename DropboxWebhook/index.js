@@ -7,7 +7,7 @@
         res = {
             body: challenge,
             headers: {
-                'Content-Type': 'text/plain'
+                'Content-Type': 'text/plain; charset=utf-8'
             }
         };
     }
@@ -18,7 +18,7 @@
             status: 200,
             body: "got a regular call",
             headers: {
-                'Content-Type': 'text/plain'
+                'Content-Type': 'text/plain; charset=utf-8'
             }
         };
     }
